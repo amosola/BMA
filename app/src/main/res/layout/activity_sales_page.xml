@@ -74,7 +74,8 @@
             <LinearLayout
                 android:id="@+id/llSales"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="195dp"
+                android:orientation="horizontal">
 
 
                 <androidx.recyclerview.widget.RecyclerView

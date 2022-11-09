@@ -8,6 +8,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.one0one.bma.DB.ItemDatabase
 import com.one0one.bma.DB.Items
 import com.one0one.bma.DB.ItemsViewModel
+import com.one0one.bma.Stocklist.RvStockListAdapter
 import com.one0one.bma.databinding.ActivityAddProductPageBinding
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope

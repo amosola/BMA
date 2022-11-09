@@ -1,12 +1,12 @@
-package com.one0one.bma
+package com.one0one.bma.Stocklist
 
-import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.one0one.bma.DB.Items
+import com.one0one.bma.R
 
 class RvStockListAdapter: RecyclerView.Adapter<RvStockListAdapter.MyViewHolder>() {
     private var itemsList = emptyList<Items>()

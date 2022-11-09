@@ -5,8 +5,8 @@ import android.os.Bundle
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.one0one.bma.DB.ItemsViewModel
+import com.one0one.bma.Stocklist.StockListAdapter
 import com.one0one.bma.databinding.ActivitySalesPageBinding
-import com.one0one.bma.databinding.ActivityStockListBinding
 
 class SalesPage : AppCompatActivity() {
     private lateinit var mItemsViewModel: ItemsViewModel

@@ -1,4 +1,4 @@
-package com.one0one.bma
+package com.one0one.bma.Stocklist
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
