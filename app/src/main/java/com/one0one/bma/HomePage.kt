@@ -3,6 +3,7 @@ package com.one0one.bma
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.one0one.bma.Sales.SalesPage
 import com.one0one.bma.Stocklist.StockList
 import com.one0one.bma.databinding.ActivityHomePageBinding
 

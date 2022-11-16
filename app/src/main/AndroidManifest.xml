@@ -23,7 +23,7 @@
             android:name=".SigninPage"
             android:exported="false" />
         <activity
-            android:name=".SalesPage"
+            android:name=".Sales.SalesPage"
             android:exported="false" />
         <activity
             android:name=".ReceiptPage"

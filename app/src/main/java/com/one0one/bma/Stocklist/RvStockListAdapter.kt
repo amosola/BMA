@@ -33,7 +33,7 @@ class RvStockListAdapter: RecyclerView.Adapter<RvStockListAdapter.MyViewHolder>(
         return itemsList.size
     }
 
-    fun setList(items: List<Items>){
+    fun setStockList(items: List<Items>){
         this.itemsList = items
         notifyDataSetChanged()
     }

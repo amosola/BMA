@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".SalesPage"
+    tools:context=".Sales.SalesPage"
     android:background="@color/alt_color_Bg">
 
     <RelativeLayout
@@ -29,8 +29,8 @@
                     android:padding="10dp"
                     android:text="Item"
                     android:textAllCaps="true"
-                    android:textColor="@color/text_color"
                     android:textSize="18sp"
+                    android:textColor="@color/icon_color"
                     android:textStyle="bold" />
 
                 <TextView
@@ -40,7 +40,7 @@
                     android:padding="10dp"
                     android:text="Quantity"
                     android:textAllCaps="true"
-                    android:textColor="@color/text_color"
+                    android:textColor="@color/icon_color"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -51,7 +51,7 @@
                     android:padding="10dp"
                     android:text="cost"
                     android:textAllCaps="true"
-                    android:textColor="@color/text_color"
+                    android:textColor="@color/icon_color"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -64,7 +64,7 @@
                     android:padding="10dp"
                     android:text="total"
                     android:textAllCaps="true"
-                    android:textColor="@color/text_color"
+                    android:textColor="@color/icon_color"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 

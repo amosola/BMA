@@ -29,4 +29,8 @@ interface ItemsDao{
 
     @Query("SELECT * FROM items_table WHERE id LIKE :idNo LIMIT 1")
     suspend fun findByIdNo(idNo: Int): Items
+
+ //   @NotNull
+   // @Insert
+    //suspend fun insertReceipt(receipt: Receipt)
 }
